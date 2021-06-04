@@ -1,0 +1,11 @@
+.construction {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+h1 {
+	color: #d22028;
+	font-family: monospace;
+	text-align: center;
+}
