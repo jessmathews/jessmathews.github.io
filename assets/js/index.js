@@ -1,1 +1,0 @@
-const anchor = [asdfa,asdf,asdf,asdf]
