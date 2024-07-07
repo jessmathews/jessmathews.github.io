@@ -2,13 +2,21 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 30%;
 }
 h1 {
-	color: #d22028;
-	font-family: monospace;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	text-align: center;
 }
 body {
-	background-color: black;
+	background-color: #f2f2f2;
+}
+.coloured {
+	display: inline-block;
+}
+.coloured span:nth-child(odd) {
+	color: red;
+}
+.coloured span:nth-child(even) {
+	color: green;
 }
