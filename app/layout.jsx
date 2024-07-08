@@ -14,6 +14,13 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Jess Mathews",
   description: "Web Design Portfolio of Jess Mathews",
+  openGraph:{
+    title: "Jess Mathews",
+    description: "Web Design Portfolio of Jess Mathews",
+    type: "website",
+    site_name: "Jess Mathews",
+    locale: "en_US",
+  }
 };
 
 export default function RootLayout({ children }) {
