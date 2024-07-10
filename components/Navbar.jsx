@@ -13,7 +13,7 @@ const Navbar = () => {
   console.log(activeLink)
   // console.log(pathname)
   return (
-    <div className="nav">
+    <div className="bg-transparent fixed top-0 left-0 right-0  w-full h-[64px] bottom-auto backdrop-blur-lg">
       <div className="z-1 flex justify-center items-center relative h-full px-3">
 
         <Link href="/" className="absolute z-[1002]" onClick={() => onUpdateActiveLink('#')}>
