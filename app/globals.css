@@ -7,9 +7,11 @@
     @apply bg-primary text-white leading-loose;
   }
 }
+
 * {
   box-sizing: border-box;
 }
+
 .link-button {
   border-radius: 20px;
   border-width: 1px;
@@ -23,7 +25,11 @@
   background-color: rgba(243, 246, 250, .01);
 }
 
-
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
 
 .jumping-char {
   display: inline-block;
