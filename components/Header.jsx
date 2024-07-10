@@ -7,7 +7,8 @@ const Header = () => {
             <Navbar />
 
             <div className="md:hidden">
-                <MobileNav />                </div>
+                <MobileNav />
+            </div>
         </header>
     )
 }
