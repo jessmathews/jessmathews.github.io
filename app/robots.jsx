@@ -7,6 +7,6 @@ export default function robots() {
       allow: '/',
       disallow: [],
     },
-    sitemap: `${process.env.VERCEL_PROJECT_PRODUCTION_URL}/sitemap.xml`,
+    sitemap: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/sitemap.xml`,
   };
 }
