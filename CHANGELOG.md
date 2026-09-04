@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.0](https://github.com/jessmathews/jessmathews.portfolio/compare/jessmathews.portfolio-v0.4.0...jessmathews.portfolio-v0.5.0) (2026-09-04)
+
+
+### Features
+
+* add sitemap component for SEO optimization with dynamic URL han… ([cdb961d](https://github.com/jessmathews/jessmathews.portfolio/commit/cdb961d58abeb7dcb5f984890cc605954b8e1742))
+* add sitemap component for SEO optimization with dynamic URL handling ([8e0f559](https://github.com/jessmathews/jessmathews.portfolio/commit/8e0f5592f39bd46695e55c2822d313db50b32775))
+* update sitemap URL to use VERCEL_PROJECT_PRODUCTION_URL for production environment ([93936b4](https://github.com/jessmathews/jessmathews.portfolio/commit/93936b437625a3e3cb950211f426055f737dfd6c))
+
+
+### Bug Fixes
+
+* ensure sitemap URLs are correctly prefixed with https for production environment ([6006e4d](https://github.com/jessmathews/jessmathews.portfolio/commit/6006e4d5b91a8eebba7b3e03a73fcbf6933d0687))
+
 ## [0.4.0](https://github.com/jessmathews/jessmathews.portfolio/compare/jessmathews.portfolio-v0.3.1...jessmathews.portfolio-v0.4.0) (2026-08-19)
 
 
